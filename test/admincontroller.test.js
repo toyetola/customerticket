@@ -49,7 +49,7 @@ describe('Test if login works', () => {
       }, 10000) 
 
     it("should test if user can login", async done => {
-        const response = await request.post('/api/user/login').send({email:"askme@gmail.com", password:"qwerty12"})
+        const response = await request.post('/api/user/login').send({email:"ozor@gmail.com", password:"qwerty12"})
         expect(response.status).toBe(200);
         expect(response.body).toHaveProperty('message');
         expect(response.body.message).toBe('Login successful');
