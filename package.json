@@ -1,0 +1,37 @@
+{
+  "name": "customerticket",
+  "version": "1.0.0",
+  "description": "takes care of ticketing for customers",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "customer",
+    "ticketing"
+  ],
+  "author": "oyetola taiwo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jest": "^26.1.0",
+    "json2csv": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-redis": "^5.0.11",
+    "moment": "^2.27.0",
+    "mongo-date-query": "^1.2.2",
+    "mongoose": "^5.9.25",
+    "redis": "^3.0.2",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
