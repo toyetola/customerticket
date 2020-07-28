@@ -6,9 +6,9 @@ Documentation explains more about this API find it here:
 https://documenter.getpostman.com/view/3707157/T1Ds8b45
 
 
-I assumed all users who want to submit tickets should be logged into the sytem. JWT takes care of authentication while 
+I assumed all users who want to submit tickets should be logged into the sytem. JWT takes care of authentication while user session is handle by express-session.
 
-Test Jest and Supertest.
+Test  - Jest and Supertest.
 
 To run this locally after cloning from github,
 
